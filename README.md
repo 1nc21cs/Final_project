@@ -34,16 +34,28 @@ This project provided valuable insights into real-world security challenges and 
 
 process:
 
+Secure Data Transmission Using Cryptography and Steganography
 
+Overview
 
+This project implements a secure data transmission system by integrating Diffie-Hellman key exchange, AES encryption, and steganography techniques. It ensures confidential communication by encrypting messages and embedding them into image, video, or audio files.
 
+Features
 
+Secure Key Exchange: Uses Diffie-Hellman key exchange for secure symmetric key generation.
 
+AES Encryption: Protects messages with Advanced Encryption Standard (AES-256).
 
+Steganography: Hides encrypted messages in image, video, and audio files.
 
+Cracking Time Estimation: Simulates brute-force attacks to analyze encryption security.
 
+Multi-Media Support: Works with PNG images, MP4 videos, and WAV audio files.
 
+Technologies Used
 
-Search
+Python (Jupyter Notebook)
 
-Re
+Cryptography Libraries: PyCryptodome, hashlib
+
+Media Processing Libraries: PIL, NumPy, moviepy, pydub
